@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () =>{
     fetchData()
 })
-
+// test
 const fetchData = async() => {
     try {
         const res = await fetch('api.json')
